@@ -34,6 +34,7 @@
     /* Estilos para el banner */
     .banner {
         height: 300px;
+        margin-bottom: 0px;
     }
 
     .txtBanner {
@@ -57,46 +58,34 @@
 
     /* Estilos para la sección 1 */
     .section1 {
-        font-size:medium;
-        lex-direction: column;
-        padding-top: 50px;
-        margin-bottom: 50px;
+        font-size: medium;
+        flex-direction: column;
     }
 
     .txtSection1 {
         width: 100%;
-        margin: auto;
-        position: relative;
     }
 
-    .txtSection1 p {
-        margin-top: 30px;
-    }
 
     .pSection1 {
-        position: absolute;
         width: 100%;
-        bottom: 0;
         margin: auto;
+        border-top: 5px dashed var(--main);
+        padding-top: 20px;
     }
 
     .txtSection1 h1,
     .pSection1 h1 {
         font-size: 24px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .txtSection1 span {
         width: 50%;
     }
 
-    .pSection1 {
-        background: var(--txtBlack);
-    }
-
     .pSection1 p { 
-        padding: 55px 55px 10px 55px;
-        color: var(--txtWhite);
+        color: var(--txtBlack);
     }
 
     .pSection1 a {
@@ -104,7 +93,6 @@
         text-align: center;
         width: 100%;
         display: inline-block;
-        margin-bottom: 50px;
     }
 
     /* Estilos para las tarjetas de imágenes */
@@ -113,7 +101,6 @@
         margin: auto;
         width: 100%;
         flex-direction: column;
-        margin-top: 270px;
     }
     
     .card {

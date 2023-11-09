@@ -160,7 +160,6 @@
 
 .sectionImgs {
     padding-top: 80px;
-    padding-bottom: 80px;
     width: 100%;
     margin: auto;
     display: flex;
@@ -214,6 +213,7 @@
 /* Estilos Section 2 */
 
 .section2 {
+    padding-top: 20px;
     margin: auto;
     width: 100%;
 }

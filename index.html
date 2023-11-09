@@ -20,7 +20,7 @@
             <a href="#section1">Sección 1</a>
             <a href="#sectionImgs">Imágenes</a>
             <a href="#section2">Sección 2</a>
-            <a href="#sectionMap">Mapa</a>
+            <a href="#sectionMap" onclick="scrollToSection('sectionMap')">Mapa</a>
         </div>
     </div>
     
@@ -42,7 +42,7 @@
     <!-- Section 1 -->
     
     <div class="container">
-        <div class="section1">
+        <div id="section1" class="section1">
             <div class="txtSection1">
                 <h2>Lorem Ipsum</h2>
                 <h1>Lorem ipsum dolor sit amet.</h1>
@@ -68,7 +68,7 @@
     <!-- Section Imgs -->
     
     <div class="sectionImgs">
-        <div class="card">
+        <div id="sectionImgs" class="card">
             <img src="assets/img/1.jpg" alt="Img1">
             <div class="txtSectionImgs">
                 <h1>Lorem ipsum dolor sit amet.</h1>
@@ -105,7 +105,7 @@
     
     <!-- Section 2 -->
     
-    <div class="container">
+    <div id="section2" class="container">
         <div class="section2">
             <div class="titleSection2">
                 <h1>Lorem ipsum dolor sit amet.</h1>
@@ -173,7 +173,7 @@
     
     <!-- Section Map -->
     
-    <div class="sectionMap">
+    <div id="sectionMap" class="sectionMap">
         <div class="containerFlex">
             <div class="img">
                 <img src="assets/img/map.png" alt="Map">
@@ -191,5 +191,6 @@
     </div>
     
     <!-- Fin Section Map -->
+<script src="js/scrollTo.js"></script>
 </body>
 </html>
