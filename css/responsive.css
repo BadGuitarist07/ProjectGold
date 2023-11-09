@@ -1,0 +1,198 @@
+
+:root {
+    --main: #D1E16A;
+    --txtWhite: #fff;
+    --txtBlack: #333;
+}
+
+/* Estilos generales para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    /* Estilos para el banner */
+    .banner {
+        height: 300px;
+    }
+
+    .txtBanner {
+        width: 80%;
+    }
+
+    .txtBanner h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .txtBanner p {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .txtBanner a {
+        display: inline-block;
+    }
+
+    /* Estilos para la sección 1 */
+    .section1 {
+        font-size:medium;
+        lex-direction: column;
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .txtSection1 {
+        width: 100%;
+        margin: auto;
+        position: relative;
+    }
+
+    .txtSection1 p {
+        margin-top: 30px;
+    }
+
+    .pSection1 {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .txtSection1 h1,
+    .pSection1 h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .txtSection1 span {
+        width: 50%;
+    }
+
+    .pSection1 {
+        background: var(--txtBlack);
+    }
+
+    .pSection1 p { 
+        padding: 55px 55px 10px 55px;
+        color: var(--txtWhite);
+    }
+
+    .pSection1 a {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 50px;
+    }
+
+    /* Estilos para las tarjetas de imágenes */
+
+    .sectionImgs {
+        margin: auto;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 270px;
+    }
+    
+    .card {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 0;
+    }
+
+    .card img {
+        opacity: 0.6;
+        height: auto;
+    }
+
+    .txtSectionImgs {
+        margin: auto;
+        width: 85%;
+        top: 50%;
+        right: 50%;
+    }
+
+    .txtSectionImgs h1 {
+        text-transform: uppercase;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .txtSectionImgs span {
+        width: 30%;
+    }
+
+    .txtSectionImgs p {
+        padding-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    /* Estilos para la sección 2 */
+
+    .titleSection2 p {
+        font-size: 24px;
+    }
+
+    .titleSection2 h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .titleSection2 span {
+        width: 50%;
+    }
+
+    .gridItem {
+        width: 100%;
+        margin-bottom: 50px;
+        padding-bottom: 40px;
+        border-bottom: 5px dashed var(--main);
+    }
+
+    .gridItem:last-child {
+        margin-bottom: 0;
+        border-bottom: 0;
+    }
+
+    .gridTxt h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    /* Estilos para la sección del mapa */
+    .sectionMap {
+        padding: 30px 0;
+    }
+
+    .containerFlex {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .img,
+    .txtSectionMap {
+        margin: auto;
+        width: 100%;
+    }
+
+    .txtSectionMap h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .txtSectionMap span {
+        display: block;
+        text-align: center;
+        width: 35%;
+    }
+
+    .txtSectionMap p {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .txtSectionMap a {
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+}

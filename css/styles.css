@@ -98,7 +98,8 @@
 
 .txtSection1 span {
     position:absolute;
-    width: 200px;
+    margin: auto;
+    width: 10%;
     height: 5px;
     background-color: var(--main)
 }
@@ -109,7 +110,6 @@
     margin-bottom: 30px;
     color: var(--txtBlack);
 }
-
 
 .pSection1 {
     margin: auto;
@@ -171,7 +171,8 @@
 
 .txtSectionImgs span {
     position:absolute;
-    width: 200px;
+    margin: auto;
+    width: 50%;
     height: 5px;
     background-color: var(--main)
 }
@@ -273,8 +274,6 @@
     width: 80%;
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
-    
 }
 
 .img { 
@@ -284,7 +283,7 @@
 
 .containerFlex img {
     margin: auto;
-    width: 100%;
+    max-width: 100%;
     object-fit: cover;
 }
 
@@ -307,7 +306,8 @@
 
 .txtSectionMap span {
     position:absolute;
-    width: 200px;
+    margin: auto;
+    width: 15%;
     height: 5px;
     background-color: var(--main)
 }
