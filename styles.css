@@ -70,7 +70,7 @@
 /* Estilos Section 1 */
 
 .section1 {
-    padding-top: 80px;
+    padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -125,58 +125,4 @@
     padding: 10px 30px;
     background-color: var(--main);
     color: var(--txtWhite);
-}
-
-/* Estilos Section 1 */
-
-.sectionImgs {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card {
-    width: 35%;
-    margin: auto;
-    position: relative;
-}
-
-.card img {
-    width: 100%;
-    margin: auto;
-    height: 324px;
-    object-fit: cover;
-    opacity: 0.6;
-}
-
-.txtSectionImgs {
-    position: absolute;
-    width: 80%;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.txtSectionImgs h1 {
-    font-weight: 100;
-    margin-bottom: 20px;
-    color: var(--txtBlack);
-}
-
-.txtSectionImgs span {
-    position:absolute;
-    width: 200px;
-    height: 5px;
-    background-color: var(--main)
-}
-
-.txtSectionImgs p {|
-    font-weight: 100;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    color: var(--txtBlack);
 }
