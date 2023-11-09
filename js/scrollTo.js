@@ -8,7 +8,7 @@ function scrollToSection(sectionId) {
         console.log('Desplazamiento a sección:', sectionId, 'OffsetTop:', section.offsetTop);
 
         const targetY = section.offsetTop;
-        const duration = 1000; // Duración del desplazamiento en milisegundos
+        const duration = 500; // Duración del desplazamiento en milisegundos
         const startTime = performance.now();
         const startY = window.scrollY;
 

@@ -12,6 +12,11 @@
     font-family: inter;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 .container {
     margin: auto;
     width: 80%;
@@ -352,4 +357,32 @@
     padding: 10px 40px;
     background-color: var(--main);
     color: var(--txtWhite);
+}
+
+/* Estilo para el botón de volver arriba */
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: var(--main);
+    color: var(--txtBlack);
+    border: none;
+    padding: 12px 15px;
+    border: 3px solid var(--txtWhite);
+    cursor: pointer;
+    display: none;
+    transition: opacity 0.5s ease;
+    border-radius: 50%;
+    opacity: 0;
+
+}
+
+#scrollToTopBtn:hover {
+    background-color: var(--txtBlack);
+    color: var(--main);
+    font-weight: bolder;
+    border: 3px solid var(--main);
+
 }
