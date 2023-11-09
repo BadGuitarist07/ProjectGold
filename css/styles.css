@@ -18,6 +18,33 @@
 
 }
 
+/* Estilos generales para el navbar */
+.navbar {
+    background-color: var(--main);
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+    color: var(--txtWhite);
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--txtWhite);
+    margin: 0 15px;
+    font-weight: bold;
+}
+
 .banner {
     display: flex;
     margin: auto;

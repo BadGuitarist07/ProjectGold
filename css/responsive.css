@@ -7,6 +7,30 @@
 
 /* Estilos generales para dispositivos móviles */
 @media only screen and (max-width: 768px) {
+
+    .logo {
+        margin: auto;
+        width: 100%;
+        margin-top: -20px;
+        padding: 15px 0;
+        text-align: center;
+        background: var(--txtBlack);
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        margin-top: 10px;
+        justify-content: flex-start;
+    }
+
+    .menu a {
+        margin: 10px 15px;
+    }
+
     /* Estilos para el banner */
     .banner {
         height: 300px;
