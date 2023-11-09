@@ -12,6 +12,11 @@
     font-family: inter;
 }
 
+.container {
+    margin: auto;
+    width: 80%;
+}
+
 .banner {
     display: flex;
     margin: auto;
@@ -30,14 +35,12 @@
 
 .txtBanner h2 {
     font-weight: bold;
-    font-size: 24px;
     margin-bottom: 15px;
     color: var(--main);
 }
 
 .txtBanner h1 {
     font-weight: 100;
-    font-size: 40px;
     margin-bottom: 20px;
     color: var(--txtWhite);
 }
@@ -50,7 +53,6 @@
 }
 
 .txtBanner p {
-    font-size: 20px;
     font-weight: 100;
     width: 45%;
     margin-top: 50px;
@@ -59,9 +61,68 @@
 }
 
 .txtBanner a {
-    font-size: 20px;
     text-decoration: none;
     padding: 10px 40px;
+    background-color: var(--main);
+    color: var(--txtWhite);
+}
+
+/* Estilos Section 1 */
+
+.section1 {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+}
+
+.txtSection1 {
+    margin: auto;
+    width: 40%;
+}
+.txtSection1 h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: var(--main);
+}
+
+.txtSection1 h1 {
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: var(--txtBlack);
+}
+
+.txtSection1 span {
+    position:absolute;
+    width: 200px;
+    height: 5px;
+    background-color: var(--main)
+}
+
+.txtSection1 p {|
+    font-weight: 100;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: var(--txtBlack);
+}
+
+
+.pSection1 {
+    margin: auto;
+    width: 40%;
+}
+
+.pSection1 p {
+    font-weight: 100;
+    color: var(--txtBlack);
+    margin-bottom: 30px;
+}
+
+.pSection1 a {
+    text-decoration: none;
+    padding: 10px 30px;
     background-color: var(--main);
     color: var(--txtWhite);
 }
